@@ -1,3 +1,7 @@
+html {
+  font-family: "Georgia";
+}
+
 main {
   background-color: #495562;
   color: #fff;
@@ -8,6 +12,28 @@ main {
   background-color: #495562;
 }
 
-banner-content {
-  background: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+.banner-content {
+  background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-btn {
+    text-align: right;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+  }
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+  }
+
 }
