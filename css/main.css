@@ -20,7 +20,6 @@ main {
 }
 
 .banner {
-  max-height: 500px;
   overflow: hidden;
 }
 
@@ -41,6 +40,7 @@ main {
 
   .banner {
     position: relative;
+    max-height: 500px;
   }
 
   .banner-content {
