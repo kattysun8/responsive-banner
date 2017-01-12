@@ -2,3 +2,12 @@ main {
   background-color: #495562;
   color: #fff;
 }
+
+.btn {
+  border-color: #97a49b;
+  background-color: #495562;
+}
+
+banner-content {
+  background: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+}
